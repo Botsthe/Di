@@ -462,25 +462,27 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  (__) \___/  (____/ \__/ (__) (____)"""
 
 # dont remove my logo 
-    PAID_TXT = """<b>    SHORTLINK_INFO = """
-<b>──────「<a href=https://t.me/TG_UPADTES1/346> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
+        PAID_TXT = """<b>Join a Prime group to get free movie without any ads
+Your time is valuable, Stop watching ads and simply avoid the stupidity
+<a href='https://t.me/+em1wsPy9pQs3Y2Zl'>➹ 🅰︎🅳︎ 🅵︎🆁︎🅴︎🅴︎ 🅶︎🆁︎🅾︎🆄︎🅿︎ ➹</a>
 
-Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ Fʀᴏᴍ Tʜɪs Bᴏᴛ Uɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
+Prime Membership Progress
 
-Wᴀɴᴛ ᴛᴏ Kɴᴏᴡ Hᴏᴡ? Fᴏʟʟᴏᴡ Tʜᴇsᴇ Sᴛᴇᴘs:-
+- 30ʀs - 1 ᴡᴇᴇᴋ
+- 50ʀs - 1 ᴍᴏɴᴛʜs
+- 120ʀs - 3 ᴍᴏɴᴛʜs
+- 200ʀs - 6 ᴍᴏɴᴛʜs
+- 400ʀs - 1 ʏᴇᴀʀs
 
-sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 1𝟶𝟶 ᴍᴇᴍʙᴇʀs.
+♛ UPI ID »»————> amanvishwakarma2626@ibl
 
-sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://moneykamalo.com/ref/Harikushal>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
+Would you like to become a Prime Member? Follow these steps:-
 
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/TG_UPDATES1/346> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
+✤ Step 1: Go to any payment app like Google PAY, PAYTM,
+✤ Step 2: Pay using UPI ID depending on your plan.
+✤ Step 3 : Send screenshot to our admin or owner Or contact me to send a screenshot.
 
-➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
-
-Any Doubts or Not Connecting? Contact Me </b>
-"""
-
+Any doubts or how to become a prime member? contact me @BOT_OWNER26</code></b>"""
 
 
 
-  
