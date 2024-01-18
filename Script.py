@@ -463,27 +463,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 # dont remove my logo 
         PAID_TXT = 
- """<b>Join a Prime group to get free movie without any ads
-Your time is valuable, Stop watching ads and simply avoid the stupidity
-<a href='https://t.me/+em1wsPy9pQs3Y2Zl'>➹ 🅰︎🅳︎ 🅵︎🆁︎🅴︎🅴︎ 🅶︎🆁︎🅾︎🆄︎🅿︎ ➹</a>
-
-Prime Membership Progress
-
-- 30ʀs - 1 ᴡᴇᴇᴋ
-- 50ʀs - 1 ᴍᴏɴᴛʜs
-- 120ʀs - 3 ᴍᴏɴᴛʜs
-- 200ʀs - 6 ᴍᴏɴᴛʜs
-- 400ʀs - 1 ʏᴇᴀʀs
-
-♛ UPI ID »»————> amanvishwakarma2626@ibl
-
-Would you like to become a Prime Member? Follow these steps:-
-
-✤ Step 1: Go to any payment app like Google PAY, PAYTM,
-✤ Step 2: Pay using UPI ID depending on your plan.
-✤ Step 3 : Send screenshot to our admin or owner Or contact me to send a screenshot.
-
-Any doubts or how to become a prime member? contact me @BOT_OWNER26</code></b>"""
-
+ 
+"""<b>hai</code></b>"""
 
 
