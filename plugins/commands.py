@@ -46,7 +46,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url="https://t.me/LootshopsLootshops")
+                                        InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                 ],[
                     InlineKeyboardButton('𝗘𝗮𝗿𝗻 𝗺𝗼𝗻𝗲𝘆 💰', url='https://telegra.ph/Earn-money-01-18')
                 ],[
@@ -99,7 +99,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url="https://t.me/findhere06")
+                                        InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                 ],[
                     InlineKeyboardButton('𝗘𝗮𝗿𝗻 𝗺𝗼𝗻𝗲𝘆 💰', url='https://telegra.ph/Earn-money-01-18')
                 ],[
