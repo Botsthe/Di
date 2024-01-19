@@ -45,15 +45,13 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='munnubhai')
-                ],[
-                    InlineKeyboardButton('𝗘𝗮𝗿𝗻 𝗺𝗼𝗻𝗲𝘆 💰', url='https://telegra.ph/Earn-money-01-18')
-                ],[
+                    InlineKeyboardButton('Updates', callback_data='vansh'),
+                    InlineKeyboardButton('Owner', callback_data='vanshbhai')
+                   ],[
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🎉 premium🎉', callback_data="shortlink_info")
+                    InlineKeyboardButton('🎉 premium 🎉', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgQAAxkBAAKcZ2WnN1ob-E77BoGow308tez818p4AAIFAwACcnEXJVhxIi6deAaOHgQ") 
@@ -98,15 +96,13 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='munnubhai')
-                ],[
-                    InlineKeyboardButton('𝗘𝗮𝗿𝗻 𝗺𝗼𝗻𝗲𝘆 💰', url='https://telegra.ph/Earn-money-01-18')
-                ],[
+                    InlineKeyboardButton('Updates', callback_data='vansh'),
+                    InlineKeyboardButton('Owner', callback_data='vanshbhai')
+                   ],[
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🎉 premium🎉', callback_data="shortlink_info")
+                    InlineKeyboardButton('🎉 premium 🎉', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
