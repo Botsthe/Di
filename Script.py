@@ -220,7 +220,10 @@ Hey My Friend
  Exp: /shortlink gplinks.in 4b392f8eb6ad711fbe58
 
 
-Also your tutorial will be Added Your Group..."""
+Also your tutorial will be Added Your Group...
+
+🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/BOT_OWNER26'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
+ 
 
     SELECT = """
 MOVIES ➢ Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs"
