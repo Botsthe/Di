@@ -1289,15 +1289,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='munnubhai')
-                ],[
-                    InlineKeyboardButton('𝗘𝗮𝗿𝗻 𝗺𝗼𝗻𝗲𝘆 💰', url='https://telegra.ph/Earn-money-01-18')
+                    InlineKeyboardButton('Updates', callback_data='vansh'),
+                    InlineKeyboardButton('Owner', callback_data='vanshbhai')
                    ],[
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🎉 premium🎉', callback_data="shortlink_info")
+                    InlineKeyboardButton('🎉 premium 🎉', callback_data="shortlink_info")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1312,6 +1310,32 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
         await query.answer(MSG_ALRT)
+
+        elif query.data == "vansh":
+        buttons = [[
+                    InlineKeyboardButton(Subcribe My YT Channel', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('Group', callback_data='vansh'),
+                    InlineKeyboardButton('Channel', callback_data='vanshbhai')
+                   ],[
+                    InlineKeyboardButton('Support', callback_data='help'),
+                    InlineKeyboardButton('Update', callback_data='about')
+                ]]
+        
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.VANSH_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
+
+
 
     elif query.data == "filters":
         buttons = [[
@@ -1330,6 +1354,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text=script.ALL_FILTERS.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
+    elif query.data == "vanshbhai":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.VANSHBHAI_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
