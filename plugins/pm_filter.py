@@ -1290,7 +1290,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('Updates', callback_data='vansh'),
-                    InlineKeyboardButton('Owner', callback_data='vanshbhai')
+                    InlineKeyboardButton('𝗘𝗮𝗿𝗻 𝗺𝗼𝗻𝗲𝘆 💰', callback_data='vanshbhai')
                    ],[
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
@@ -1315,11 +1315,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Subscribe My YT Channel', url='https://www.youtube.com/')
         ],[
-            InlineKeyboardButton('Group', callback_data='vansh'),
-            InlineKeyboardButton('Channel', callback_data='vanshbhai')
+            InlineKeyboardButton('Group', url='https://t.me/+X3uoMkIHhco1YTY1'),
+            InlineKeyboardButton('Channel', url='https://t.me/Latestmoviesupdates0')
         ],[
-            InlineKeyboardButton('Support', callback_data='help'),
-            InlineKeyboardButton('Update', callback_data='about')
+            InlineKeyboardButton('Support', url='https://t.me/+cZGisR7lHeg1ZDdl'),
+            InlineKeyboardButton('Update', url='https://t.me/Moviesofficialchannel0')
         ],[
             InlineKeyboardButton('back', callback_data='start')
         ]]
