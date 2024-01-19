@@ -57,5 +57,8 @@ pyromod
 colorama
 
 
+python-telegram-bot==13.7
+
+
 
   
