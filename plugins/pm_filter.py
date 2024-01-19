@@ -1420,9 +1420,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
          ], [ 
              InlineKeyboardButton('🪩 FILTERS 🪩', callback_data='filters'), 
              InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
-          ],[
-             InlineKeyboardButton('𝗘𝗮𝗿𝗻 𝗺𝗼𝗻𝗲𝘆 💰', url='https://telegra.ph/Earn-money-01-18')
-           ]]
+          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
