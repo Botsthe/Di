@@ -9,7 +9,7 @@ payment_requests = {}
 
 
 @Client.on_message(filters.private & filters.command(["buy_repo"]))
-def buy_repo_command_handler(client, message):
+async def buy_repo(client,message):
     user_id = update.effective_user.id
 
     # Generate QR code and UPI details (replace with your logic)
