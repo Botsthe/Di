@@ -1309,50 +1309,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer(MSG_ALRT)
-
-#        elif query.data == "vansh":
-#        buttons = [[
-#                    InlineKeyboardButton(Subcribe My YT Channel', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-#                ],[
-#                    InlineKeyboardButton('Group', callback_data='vansh'),
-#                    InlineKeyboardButton('Channel', callback_data='vanshbhai')
-#                ],[
-#                    InlineKeyboardButton('Support', callback_data='help'),
-#                    InlineKeyboardButton('Update', callback_data='about')
-#                ],[
-#                    InlineKeyboardButton('back', callback_data='start')
-#                ]]
-#        
-#        reply_markup = InlineKeyboardMarkup(buttons)
-#        await client.edit_message_media(
-#            query.message.chat.id, 
-#            query.message.id, 
-#            InputMediaPhoto(random.choice(PICS))
-#        )
-#        await query.message.edit_text(
-#            text=script.VANSH_TXT,
-#            reply_markup=reply_markup,
-#            parse_mode=enums.ParseMode.HTML
-#        )
-
+        
+        
     elif query.data == "vansh":
-    buttons = [
-        [
-            InlineKeyboardButton('Subscribe My YT Channel', url=f'https://www.youtube.com/')
-        ],
-        [
+        buttons = [[
+            InlineKeyboardButton('Subscribe My YT Channel', url='https://www.youtube.com/')
+        ],[
             InlineKeyboardButton('Group', callback_data='vansh'),
             InlineKeyboardButton('Channel', callback_data='vanshbhai')
-        ],
-        [
+        ],[
             InlineKeyboardButton('Support', callback_data='help'),
             InlineKeyboardButton('Update', callback_data='about')
-        ],
-        [
+        ],[
             InlineKeyboardButton('back', callback_data='start')
-        ]
-    ]
+        ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1365,8 +1335,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-
-
 
 
 
