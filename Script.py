@@ -201,15 +201,26 @@ Send screenshot to our admin or owner Or contact me to send a screenshot @BOT_OW
 📢 Bᴏᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ."""
 
     VANSHBHAI_TXT = """
-💵 ɪ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛᴏ ʏᴏᴜ 💸
+Hey My Friend 
 
-ᴘʟᴇᴀsᴇ ᴅᴏɴᴀᴛᴇ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜰᴏʀ ᴋᴇᴇᴘɪɴɢ ᴛʜᴇ sᴇʀᴠɪᴄᴇ ᴀʟɪᴠᴇ & ᴋᴇᴇᴘ ʙʀɪɴɢɪɴɢ ᴍᴏʀᴇ ɴᴇᴡ ꜰᴇᴀᴛᴜʀᴇs ꜰᴏʀ ʏᴏᴜ....
 
-𝐘𝐨𝐮 𝐂𝐚𝐧 𝐃𝐨𝐧𝐚𝐭𝐞 𝐀𝐧𝐲 𝐀𝐦𝐨𝐮𝐧𝐭 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 💷
-𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨
+ Now you can earn money on Telegram too.
 
-ᴄʟɪᴄᴋ ʜᴇʀᴇ - Dev (https://telegram.me/none_090)
-ᴄʟɪᴄᴋ ʜᴇʀᴇ - Dev (https://telegram.me/none_090)"""
+ You must have 1 group to earn money by telegram.
+ If you have a group, you can earn money by adding our bot to your group.
+
+ The more members you have in your group, the higher your income will be.
+
+ How and what to do
+
+ Step 1: Administer this THALAPATHY-FILTER-BOT bot to your group
+
+ Step 2: Add your website and API
+
+ Exp: /shortlink gplinks.in 4b392f8eb6ad711fbe58
+
+
+Also your tutorial will be Added Your Group..."""
 
     SELECT = """
 MOVIES ➢ Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs"
