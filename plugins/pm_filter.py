@@ -1289,13 +1289,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Updates', callback_data='vansh'),
+                    InlineKeyboardButton('•𝑼𝒑𝒅𝒂𝒕𝒆•', callback_data='vansh'),
                     InlineKeyboardButton('𝗘𝗮𝗿𝗻 𝗺𝗼𝗻𝗲𝘆 💰', callback_data='vanshbhai')
                    ],[
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🎉 premium 🎉', callback_data="shortlink_info")
+                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data="shortlink_info")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1313,15 +1313,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "vansh":
         buttons = [[
-            InlineKeyboardButton('Subscribe My YT Channel', url='https://www.youtube.com/')
+            InlineKeyboardButton('𝑺𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒀𝑻 𝒄𝒉𝒂𝒏𝒏𝒆𝒍', url='https://www.youtube.com/')
         ],[
-            InlineKeyboardButton('Group', url='https://t.me/+X3uoMkIHhco1YTY1'),
-            InlineKeyboardButton('Channel', url='https://t.me/Latestmoviesupdates0')
+            InlineKeyboardButton('𝑮𝒓𝒐𝒖𝒑', url='https://t.me/+X3uoMkIHhco1YTY1'),
+            InlineKeyboardButton('𝑪𝒉𝒂𝒏𝒏𝒆𝒍', url='https://t.me/Latestmoviesupdates0')
         ],[
-            InlineKeyboardButton('Support', url='https://t.me/+cZGisR7lHeg1ZDdl'),
-            InlineKeyboardButton('Update', url='https://t.me/Moviesofficialchannel0')
+            InlineKeyboardButton('𝑺𝒖𝒑𝒑𝒐𝒓𝒕', url='https://t.me/+cZGisR7lHeg1ZDdl'),
+            InlineKeyboardButton('𝑼𝒑𝒅𝒂𝒕𝒆', url='https://t.me/Moviesofficialchannel0')
         ],[
-            InlineKeyboardButton('back', callback_data='start')
+            InlineKeyboardButton('𝑩𝒂𝒄𝒌', callback_data='start')
         ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1416,7 +1416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('💠 ᴛᴇʟᴇɢʀᴀᴘʜ 💠', callback_data='tele') 
          ], [ 
              InlineKeyboardButton('♻️ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ ♻️', callback_data='coct'), 
-             InlineKeyboardButton('❤‍🔥 🎉 premium🎉 ❤‍🔥', callback_data='shortlink_info') 
+             InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='shortlink_info') 
          ], [ 
              InlineKeyboardButton('🪩 FILTERS 🪩', callback_data='filters'), 
              InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
