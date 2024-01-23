@@ -1669,6 +1669,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shortlink_info":
         buttons = [[
+            InlineKeyboardButton('𝑩𝒖𝒚 𝑷𝒍𝒂𝒏', url='https://t.me/BOT_OWNER26')
+        ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
