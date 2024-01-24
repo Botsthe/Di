@@ -179,7 +179,7 @@ Nᴀᴍᴇ - {}"""
 - 200ʀs - 6 ᴍᴏɴᴛʜs
 
 - 400ʀs - 1 ʏᴇᴀʀs
-
+/plan  /myplan
 ➣ my UPI id amanvishwakarma2626@ibl
 
 Send screenshot to our admin or owner Or contact me to send a screenshot @BOT_OWNER26</b>
