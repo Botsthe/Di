@@ -51,7 +51,7 @@ async def start(client, message):
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='shortlink_info')
+                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='premium_info')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgQAAxkBAAKcZ2WnN1ob-E77BoGow308tez818p4AAIFAwACcnEXJVhxIi6deAaOHgQ") 
@@ -71,6 +71,20 @@ async def start(client, message):
         except ChatAdminRequired:
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
+
+    if len(message.command) == 2 and message.command[1] in ["premium"]:
+        buttons = [[
+                    InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', user_id=int(767250672))
+                  ],[
+                    InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
+                  ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_photo(
+            photo=(SUBSCRIPTION),
+            caption=script.PREPLANS_TXT.format(message.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
         btn = [
             [
                 InlineKeyboardButton(
@@ -102,7 +116,7 @@ async def start(client, message):
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='shortlink_info')
+                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='premium_info')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
